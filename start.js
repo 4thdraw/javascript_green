@@ -11,3 +11,6 @@ let obj ={
 }
 
 console.log(nm, count, arr[1], obj.nm, obj.arr[2] );
+
+//자바스크립트 15
+console.log(nm, count + obj.count)

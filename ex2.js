@@ -9,4 +9,11 @@ let num = 10;
     parseInt(num)
     console.log(typeof num)
     num = parseInt(num)
-    console.log(typeof num)
+    console.log(typeof num) // 510 숫자가 됨
+
+    // 1000원 반드시 = 식은 불가
+    num += 490;
+    num += "원";
+    
+    console.log(num)
+
