@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="logo">뭐라도 써볼까????</h1>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+
+    <script>
+        document.getElementsByClassName("logo")[0].innerHTML += "네이버";
+        document.getElementsByClassName("logo")[0].innerHTML = "";
+
+        document.getElementsByTagName("li")[1].innerHTML = "2번째 li입니다";
+        document.body.innerHTML = "";
+    </script>
+</body>
+</html>
